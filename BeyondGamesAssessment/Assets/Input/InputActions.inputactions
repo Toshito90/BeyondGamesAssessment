@@ -1,0 +1,82 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "d86be97d-e6e4-447d-920b-52a52644645a",
+            "actions": [
+                {
+                    "name": "Camera ZoomIn",
+                    "type": "Button",
+                    "id": "9ccf5c88-f42c-4b62-82fc-68506b448d9b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Camera ZoomOut",
+                    "type": "Button",
+                    "id": "905e47fb-a0a4-4b6f-8f3e-2a5df26617be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6d1dc7bf-b21f-4f4f-9c7b-6be39aadda4e",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera ZoomIn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbc1e339-8fdc-4eb7-97fc-1a6ac9f4c6ca",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera ZoomIn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e0f7bdb-cc69-4ead-915f-f36bacd04672",
+                    "path": "<Keyboard>/numpadMinus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera ZoomOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e57a903-dfe2-4199-aeab-ff72961f89dc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera ZoomOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Rebinding",
+            "id": "0adb29ab-ba39-48a3-929b-ffc7286b81d4",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
